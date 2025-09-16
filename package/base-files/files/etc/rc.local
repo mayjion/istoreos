@@ -1,4 +1,10 @@
 # Put your custom commands here that should be executed once
 # the system init finished. By default this file does nothing.
 
+
+homemqtt &
+local_handle &
+
+[ -e /dev/ttyUSB0 ] && Z3Gateway -n 1 -p /dev/ttyUSB0 -b 115200 &
+
 exit 0
