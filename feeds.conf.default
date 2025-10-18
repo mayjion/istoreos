@@ -8,3 +8,5 @@ src-git store https://github.com/linkease/istore.git;main
 src-git third https://github.com/jjm2473/openwrt-third.git;main
 # homeiot
 src-git homeiot git@github.com:mayjion/homeiot.git
+#matter
+#src-git matter https://github.com/project-chip/matter-openwrt.git
