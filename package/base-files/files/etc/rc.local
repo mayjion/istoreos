@@ -8,3 +8,4 @@ local_handle &
 [ -e /dev/ttyUSB0 ] && screen -dmS zigbee /usr/bin/zigbee_z3_gateway -n 1 -p /dev/ttyUSB0 -b 115200 &
 
 exit 0
+
